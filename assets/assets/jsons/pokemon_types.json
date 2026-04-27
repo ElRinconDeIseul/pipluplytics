@@ -1,0 +1,42 @@
+{
+  "tipos": [
+    {"id": 1, "name": "Normal", "color": "A8A77A", "icon": "Icons.adjust", "api": "https://pokeapi.co/api/v2/type/1"},
+    {"id": 2, "name": "Lucha", "color": "C22E28", "icon": "Icons.sports_mma", "api": "https://pokeapi.co/api/v2/type/2"},
+    {"id": 3, "name": "Volador", "color": "A98FF3", "icon": "Icons.air", "api": "https://pokeapi.co/api/v2/type/3"},
+    {"id": 4, "name": "Veneno", "color": "A33EA1", "icon": "Icons.bug_report", "api": "https://pokeapi.co/api/v2/type/4"},
+    {"id": 5, "name": "Tierra", "color": "E2BF65", "icon": "Icons.landscape", "api": "https://pokeapi.co/api/v2/type/5"},
+    {"id": 6, "name": "Roca", "color": "B6A136", "icon": "Icons.terrain", "api": "https://pokeapi.co/api/v2/type/6"},
+    {"id": 7, "name": "Bicho", "color": "A6B91A", "icon": "Icons.bug_report", "api": "https://pokeapi.co/api/v2/type/7"},
+    {"id": 8, "name": "Fantasma", "color": "735797", "icon": "Icons.nightlight_round", "api": "https://pokeapi.co/api/v2/type/8"},
+    {"id": 9, "name": "Acero", "color": "B7B7CE", "icon": "Icons.settings", "api": "https://pokeapi.co/api/v2/type/9"},
+    {"id": 10, "name": "Fuego", "color": "EE8130", "icon": "Icons.local_fire_department", "api": "https://pokeapi.co/api/v2/type/10"},
+    {"id": 11, "name": "Agua", "color": "6390F0", "icon": "Icons.water", "api": "https://pokeapi.co/api/v2/type/11"},
+    {"id": 12, "name": "Planta", "color": "7AC74C", "icon": "Icons.eco", "api": "https://pokeapi.co/api/v2/type/12"},
+    {"id": 13, "name": "Eléctrico", "color": "F7D02C", "icon": "Icons.flash_on", "api": "https://pokeapi.co/api/v2/type/13"},
+    {"id": 14, "name": "Psíquico", "color": "F95587", "icon": "Icons.visibility", "api": "https://pokeapi.co/api/v2/type/14"},
+    {"id": 15, "name": "Hielo", "color": "96D9D6", "icon": "Icons.ac_unit", "api": "https://pokeapi.co/api/v2/type/15"},
+    {"id": 16, "name": "Dragón", "color": "6F35FC", "icon": "Icons.whatshot", "api": "https://pokeapi.co/api/v2/type/16"},
+    {"id": 17, "name": "Siniestro", "color": "705746", "icon": "Icons.dark_mode", "api": "https://pokeapi.co/api/v2/type/17"},
+    {"id": 18, "name": "Hada", "color": "D685AD", "icon": "Icons.star", "api": "https://pokeapi.co/api/v2/type/18"}
+  ],
+  "matriz_efectividad": {
+    "1": {"8": 0, "9": 0.5, "6": 0.5},
+    "2": {"1": 2, "6": 2, "15": 2, "9": 2, "17": 2, "3": 0.5, "4": 0.5, "7": 0.5, "14": 0.5, "18": 0.5, "8": 0},
+    "3": {"2": 2, "7": 2, "12": 2, "6": 0.5, "9": 0.5, "13": 0.5},
+    "4": {"12": 2, "18": 2, "4": 0.5, "5": 0.5, "6": 0.5, "8": 0.5, "9": 0},
+    "5": {"4": 2, "6": 2, "9": 2, "10": 2, "13": 2, "7": 0.5, "12": 0.5, "3": 0},
+    "6": {"3": 2, "7": 2, "10": 2, "15": 2, "2": 0.5, "5": 0.5, "9": 0.5},
+    "7": {"12": 2, "14": 2, "17": 2, "2": 0.5, "3": 0.5, "4": 0.5, "8": 0.5, "9": 0.5, "10": 0.5, "18": 0.5},
+    "8": {"8": 2, "14": 2, "17": 0.5, "1": 0},
+    "9": {"6": 2, "15": 2, "18": 2, "9": 0.5, "10": 0.5, "11": 0.5, "13": 0.5},
+    "10": {"7": 2, "9": 2, "12": 2, "15": 2, "6": 0.5, "10": 0.5, "11": 0.5, "16": 0.5},
+    "11": {"5": 2, "6": 2, "10": 2, "11": 0.5, "12": 0.5, "16": 0.5},
+    "12": {"5": 2, "6": 2, "11": 2, "3": 0.5, "4": 0.5, "7": 0.5, "9": 0.5, "10": 0.5, "12": 0.5, "16": 0.5},
+    "13": {"3": 2, "11": 2, "12": 0.5, "13": 0.5, "16": 0.5, "5": 0},
+    "14": {"2": 2, "4": 2, "9": 0.5, "14": 0.5, "17": 0},
+    "15": {"3": 2, "5": 2, "12": 2, "16": 2, "9": 0.5, "10": 0.5, "11": 0.5, "15": 0.5},
+    "16": {"16": 2, "9": 0.5, "18": 0},
+    "17": {"8": 2, "14": 2, "2": 0.5, "17": 0.5, "18": 0.5},
+    "18": {"2": 2, "16": 2, "17": 2, "4": 0.5, "9": 0.5, "10": 0.5}
+  }
+}
